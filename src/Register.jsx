@@ -20,7 +20,7 @@ import { Link } from "@tanstack/react-router";
       await api.post("/register", {
         email: data.email,
         password: data.password,
-        username: data.name, // keep this
+        username: data.name, 
         role: "ADMIN",
       });
       alert("Registered Successfully");

@@ -11,7 +11,7 @@ useEffect(() => {
   const user = JSON.parse(localStorage.getItem("user"));
 
   if (!user) {
-    navigate({ to: "/login" }); // protect route
+    navigate({ to: "/login" }); 
   } else {
     setUser(user);
   }
